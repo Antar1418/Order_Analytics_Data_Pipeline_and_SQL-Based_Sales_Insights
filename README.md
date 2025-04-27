@@ -1,30 +1,18 @@
-# Pyhton+SQL_Project
+Project Title:
+**Order Analytics Data Pipeline and SQL-Based Sales Insights**
 
--> Pandas Data Cleaning & Preprocessing
-   * Automated data pipeline for order analytics.
+Key Highlights:
 
--> Key Operations:
+Designed and automated a data cleaning pipeline using Python (Pandas) for order analytics, handling missing values, column standardization, and datetime parsing.
 
-   1.Data Ingestion & Null Handling
-     -> Read CSV with custom na_values to standardize missing data (Not Available/unknown).
-  
-   2.Validated data integrity using unique() checks.
-  
-   3.Column Standardization
-  
-   4.Renamed columns to lowercase with underscores (e.g., Order Id → order_id) for SQL compatibility.
+Validated data integrity through unique value checks and standardized column naming (lowercase, underscores) to ensure SQL compatibility and consistency.
 
--> Feature Engineering
+Performed feature engineering by dynamically calculating profit from sale and cost price; optimized dataset by removing redundant columns to enhance memory efficiency.
 
-   5.Derived profit dynamically from sale_price and cost_price (commented: discount calculations).
+Transformed raw datasets into analysis-ready formats, significantly improving reporting speed and data usability for business insights.
 
--> DateTime Conversion
+Leveraged SQL to extract critical sales metrics: Top 10 highest revenue-generating products, Top 5 highest-selling products by region, and Month-over-Month (MoM) growth comparisons for 2022 and 2023.
 
-   6.Parsed order_date strings into datetime objects for time-series analysis.
+Conducted time-series and category analysis to identify peak sales months per category and the highest sub-category growth by profit year-over-year (YoY).
 
--> Optimized Storage
-
-   7.Dropped redundant columns (list_price, cost_price) to reduce memory usage.
-
-Tools: Python, Pandas.
-Impact: Transformed raw data into analysis-ready format, enabling faster reporting.
+Tools: Python (Pandas), SQL
