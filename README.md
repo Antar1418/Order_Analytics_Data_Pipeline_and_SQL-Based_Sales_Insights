@@ -16,4 +16,5 @@ Key Highlights:
 6. Conducted time-series and category analysis to identify peak sales months per category and the highest sub-category growth by profit year-over-year (YoY).
 
 **Tools: Python (Pandas), SQL**
+
 **Impact:** Enabled faster, more reliable reporting and empowered strategic decision-making through cleaner, optimized datasets and actionable sales insights.
